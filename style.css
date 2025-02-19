@@ -1,0 +1,82 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    padding: 20px;
+    background-image: url('https://d.ibtimes.co.uk/en/full/1386063/iron-man-tony-stark-played-by-robert-downey-jr-discusses-all-his-needs-virtual-assistant-jarvis.jpg?w=400');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+#time {
+    margin: 20px 0;
+    font-size: 2em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.numbers {
+    font-size: 3rem;
+    color: #ff00d4ea;
+}
+
+.word {
+    font-size: 1.5rem;
+    color: #3e74ff;
+}
+
+#buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn-1 {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-1:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+#start-click {
+    background-color: #009779;
+}
+
+#stop-click {
+    background-color: #fc0e0e;
+}
+
+#reset-click {
+    background-color: #f8ff24;
+    color: #000;
+}
